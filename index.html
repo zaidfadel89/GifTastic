@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+
+    <title>Hello, world!</title>
+  </head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <body style="background-image:url(assets/img/it2.png);background-size:100%  ">
+    <div class="topButtons"></div>
+    <form id="formSubmit">
+      <label for="animal-input" style="color: rgb(7, 247, 127)"
+        >Add Animal</label
+      >
+      <input id="animal-input" type="text" />
+      <input id="add-animal" type="submit" value="Submit" />
+    </form>
+    <div style="color: rgb(176, 221, 132);" id="gifContainer"></div>
+    <style>
+      .animalButton {
+        padding-left: 2%;
+        padding-right: 2%;
+
+        background-color: rgb(77, 235, 15);
+        color: blue;
+        margin-left: 7px;
+        margin-bottom: 2%;
+      }
+      .animalGif {
+        margin-left: 1%;
+        width: 400px;
+        height: 200px;
+        border: 2px solid rgb(173, 169, 240);
+        box-shadow: 10px 10px 5px rgb(246, 246, 248);
+        border-radius: 25px;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+
+    <div class="weather-container"></div>
+    <img class="icon" />
+    <div class="weather"></div>
+    <p class="temp"></p>
+    <script src="assets/js/js.js"></script>
+  </body>
+</html>
